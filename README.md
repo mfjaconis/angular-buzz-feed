@@ -1,27 +1,49 @@
-# ProjetoBuzzfeed
+# Angular BuzzFeed Quiz: Herói ou Vilão?
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+Este projeto é um quiz interativo desenvolvido em Angular que determina se o usuário seria um herói ou vilão com base em suas respostas. O objetivo é demonstrar habilidades com Angular, incluindo uso de componentes dinâmicos, formulários reativos e manipulação de estado.
 
-## Development server
+## 🚀 Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular**: Framework para desenvolvimento do front-end.
+- **TypeScript**: Linguagem para escrita do código.
+- **HTML5 e CSS3**: Para estruturação e estilização.
+- **Angular CLI**: Ferramenta para gerenciamento do projeto.
 
-## Code scaffolding
+## 🌟 Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Quiz Dinâmico**:
+  - Perguntas geradas dinamicamente.
+  - Sistema de pontuação baseado nas respostas.
+- **Exibição de Resultados**:
+  - Determina se o usuário é mais inclinado a ser um herói ou vilão.
+- **Design Responsivo**:
+  - Layout adaptável para dispositivos móveis e desktop.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ⚙️ Como Executar
 
-## Running unit tests
+### Pré-requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Certifique-se de ter instalado:
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli)
 
-## Running end-to-end tests
+### Passos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/mfjaconis/angular-buzz-feed.git
+   cd angular-buzz-feed
 
-## Further help
+2. Instale as dependências:
+   ```bash
+   npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   
+4. Acesse a aplicação em http://localhost:4200.
+
+
